@@ -41,7 +41,7 @@ describe('Test server app', () => {
 
     it('should return an error if command emits an error', (done) => {
       const cmd = 'ls';
-      const args = 'nonexistentfile';
+      const args = 'pepo';
     
       request.get(`http://localhost:3000/execmd?cmd=${cmd}&args=${args}`, (err, res, body) => {
         expect(res.statusCode).to.equal(500);
