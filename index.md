@@ -22,7 +22,7 @@ title: "Documentación de la práctica 10: Ejercicios de programación"
 - [Conclusiones](#conclusiones)
 
 # Introducción
-En esta práctica tendremos que resolver una serie de ejercicios de programación que nos permitirán conocer más en profundidad las clases e interfaces genéricas del lenguaje TypeScript. Además, también deberán utilizar los principios SOLID de diseño orientado a objetos.
+
 # Ejercicios de programación
 ## Ejercicio 1
 ### Enunciado
