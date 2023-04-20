@@ -1,0 +1,13 @@
+dist
+.eslintrc.json
+.pretterignore
+.prettierrc.json
+package-lock.json
+package.json
+tsconfig.json
+.github
+.mocharc.json
+coverage
+.nyc*
+database
+

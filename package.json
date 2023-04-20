@@ -1,0 +1,46 @@
+{
+  "name": "ull-esit-inf-dsi-22-23-prct09-funko-app-sergioperera",
+  "version": "1.0.0",
+  "description": "[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/fmDo8ROl)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "c8 npm test && c8 report --reporter=lcov ",
+    "start": "tsc-watch --onSuccess \"node dist/ejercicio_2/ejercicio_2.js ./input/helloworld.txt\"",
+    "doc": "typedoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-SergioPerera.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-SergioPerera/issues"
+  },
+  "homepage": "https://github.com/ULL-ESIT-INF-DSI-2223/ull-esit-inf-dsi-22-23-prct09-funko-app-SergioPerera#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.4",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.15.11",
+    "@types/prompt-sync": "^4.2.0",
+    "@types/yargs": "^17.0.24",
+    "c8": "^7.13.0",
+    "chai": "^4.3.7",
+    "eslint-config-prettier": "^8.8.0",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0",
+    "prettier": "^2.8.7",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typedoc": "^0.23.28",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "prompt-sync": "^4.2.0",
+    "yargs": "^17.7.1"
+  }
+}
